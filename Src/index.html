@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body onload="main()">
+<form>
+    <table>
+        <caption>Them moi</caption>
+        <tr>
+            <td>
+                Ma cau thu
+            </td>
+            <td>
+                <input type="text" name="idplayer" id="idplayer">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ten cau thu
+            </td>
+            <td>
+                <input type="text" name="nameplayer" id="nameplayer">
+            </td>
+        </tr>
+        <tr>
+        <td>
+            Diem so cau thu
+        </td>
+        <td>
+            <input type="text" name="scoreplayer" id="scoreplayer">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Them moi" onclick="createPlayer();">
+            </td>
+            <td>
+                <input type="reset" value="Huy">
+            </td>
+        </tr>
+    </table>
+</form>
+<div id="display">
+
+</div>
+<script src="JS/Main.js"></script>
+<script src="JS/PayerList.js"></script>
+<script src="JS/Player.js"></script>
+</body>
+</html>
